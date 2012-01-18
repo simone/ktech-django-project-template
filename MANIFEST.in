@@ -1,0 +1,4 @@
+include setup.py kdist.py requirements.txt
+recursive-include src/python/*/*/templates .
+recursive-include src/python/*/*/static .
+recursive-include src/python/*/*/fixtures .
