@@ -8,7 +8,8 @@
 # Date:    18/01/2012
 #
 # USE:
-#   django-admin.py startproject your_project_name --template=https://github.com/simone/ktech-django-project-template/zipball/master
+#   django-admin.py startproject your_project_name \
+#   --template=https://github.com/simone/ktech-django-project-template/zipball/master
 #
 # This template is under the GNU General Public License as described below.
 #
@@ -16,13 +17,20 @@
 # the terms of the GNU General Public License as published by the Free Software 
 # Foundation; either version 2 of the License, or (at your option) any later version.
 #
-# This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; 
-# without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
+# This program is distributed in the hope that it will be useful, 
+# but WITHOUT ANY WARRANTY;  without even the implied warranty of MERCHANTABILITY 
+# or FITNESS FOR A PARTICULAR PURPOSE. 
+# 
 # See the GNU General Public License for more details.
 #
 # You should have received a copy of the GNU General Public License along with this program; 
-# if not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+# if not, write to the Free Software Foundation, 
+# Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
 #
-# Further information about the GNU GPL is available at: http://www.gnu.org/copyleft/gpl.ja.html
-# Further information about this template is available at: https://github.com/simone/ktech-django-project-template/
+# Further information about the GNU GPL is available at: 
+#  * http://www.gnu.org/copyleft/gpl.ja.html
+#
+# Further information about this template is available at: 
+#  * https://github.com/simone/ktech-django-project-template/
+#  * http://www.k-tech.it/
 
