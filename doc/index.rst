@@ -1,9 +1,9 @@
-.. {{ project_name }} documentation master file, created by
+.. |project| documentation master file, created by
    sphinx-quickstart on Wed Nov  2 21:36:42 2011.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to {{ project_name }}'s documentation!
+Welcome to |project|'s documentation!
 =================================
 
 Release: |release| of |today|

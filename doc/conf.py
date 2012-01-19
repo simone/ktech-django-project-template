@@ -231,7 +231,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', '{{ project_name }}', u'{{ project_name }} Documentation',
-   u'iK-Tech', '{{ project_name }}', 'One line description of project.',
+   u'K-Tech', '{{ project_name }}', 'One line description of project.',
    'Miscellaneous'),
 ]
 
