@@ -17,7 +17,7 @@ from distutils.core import setup, Command
 from distutils.util import change_root, convert_path
 from distutils.command.install import INSTALL_SCHEMES
 
-__all__ = ["setup", "cmdclasses", "configure", "parse_requirements"]
+__all__ = ["setup", "cmdclasses", "Nope", "configure", "parse_requirements"]
 
 # Tell distutils to put the data_files in platform-specific installation
 # locations. See here for an explanation:
@@ -138,6 +138,11 @@ class install_data(Command):
 
     def get_outputs(self):
         return self.outfiles
+
+class Nope(Command):
+    user_options = [('nope=', None, "")]
+    initialize_options = finalize_options = run = lambda self:None
+
 
 class osx_install_data(install_data):
     # On MacOS, the platform-specific lib dir is /System/Library/Framework/Python/.../

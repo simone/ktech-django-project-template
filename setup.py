@@ -1,10 +1,10 @@
-from kdist import setup, cmdclasses, configure, parse_requirements
+from kdist import setup, cmdclasses, configure, parse_requirements, Nope
 
 packages, data_files, package_dir = configure('src/python', '{{ project_name }}')
 version = __import__('{{ project_name }}').get_version()
 
 # deactivate register and upload on pypi
-cmdclasses.update({'register': None, 'upload':None})
+cmdclasses.update({'register': Nope, 'upload':Nope})
 
 # parse requirements.txt
 requirements, dependency_links = parse_requirements('requirements.txt')
