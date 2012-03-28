@@ -49,7 +49,7 @@ def configure(python_src, pkg):
         for i, dirname in enumerate(dirnames):
             if dirname.startswith('.'): del dirnames[i]
         if '__init__.py' in filenames:
-            packages.append('.'.join(fullsplit(dirpath)[2:]))
+            packages.append('.'.join(fullsplit(dirpath)[len(root_dir):]))
         elif filenames:
             data_files.append([dirpath, [os.path.join(dirpath, f) for f in filenames]])
     package_dir = {'':python_src}
